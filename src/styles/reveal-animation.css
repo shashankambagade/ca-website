@@ -1,0 +1,42 @@
+/* styles/reveal-animation.css */
+
+/* Allow animating a percentage variable */
+
+@property --p {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 0%;
+}
+
+.reveal-once {
+  color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) var(--p),
+    rgba(255, 255, 255, 0.28) var(--p),
+    rgba(255, 255, 255, 0.28) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  will-change: --p, background-image, transform, opacity;
+  opacity: 0.001;
+  transform: translateY(8px);
+}
+
+.reveal-once.is-visible {
+  animation: sweep 1.1s ease-out forwards, popIn 0.42s ease-out forwards;
+}
+
+@keyframes sweep {
+  to {
+    --p: 100%;
+  }
+}
+
+@keyframes popIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

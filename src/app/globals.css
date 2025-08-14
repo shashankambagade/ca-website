@@ -12,15 +12,157 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#text-2 p a {
+    font-size: 84px;
+    line-height: 90px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 18px;
+}
+
+#text-2 p a img {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    transition: ease-in .2s;
+}
+
+#text-2 p a:hover img {
+    left: 30px;
+    transition: ease-in .2s;
+}
+
+.copyrights .textwidget a {
+    margin-right: 30px;
+}
+
+#text-6 {
+  margin-top: 25px;
+}
+#text-6 p {
+    display: flex;
+    gap: 16px;
+}
+
+@keyframes rotatePause {
+  0% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.image-rotate,
+.animate-rotatePause {
+  animation: rotatePause 2.4s ease-in-out infinite;
+}
+
+
+@keyframes rise-in {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(-10%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.animate-rise-in {
+  animation: rise-in 0.6s ease-out forwards;
+}
+
+.font-merriweather {
+    font-family: 'Merriweather' !important;
+}
+
+.cta-big a {
+    font-family: 'Merriweather' !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.64px;
+}
+
+.font-raleway u {
+    color: #FFBF00;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.font-raleway strong {
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.font-raleway .image-rotate {
+    display: inline;
+}
+
+.font-helvetica,
+.impact-style p {
+    font-family: HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.impact-style p em {
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-style: italic;
+    color: #fff;
+}
+.email-link {
+    text-underline-offset: 5px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.main-nav .relative.group:nth-last-child(1) a {
+    font-family: merriweather, serif;
+    font-size: 16px;
+    font-style: italic;
+    background: #f34835;
+    border: 0;
+    color: #fff;
+    border-radius: 24px;
+    padding: 14px 32px;
+    margin-left: 34px;
+}
+
+#menu-footer-menu li a:hover:after {
+    transform: scale(0.5);
+}
+#menu-footer-menu li a:after {
+    content: "";
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.75s cubic-bezier(0.62, 0.05, 0.01, 0.99);
+    background-color: #000;
+    height: 1px;
+    display: block;
 }

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+	<title>linkin-icon-red</title>
+	<defs>
+		<image  width="80" height="80" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAAAAXNSR0IB2cksfwAAAGlQTFRFAAAA9Eo19Uc28kg18kk180g08kg180g180g080g11VUq9kg28kg080g19Eg180g19Eg280g19Ek29Eg1+Ew380g18kc180g29Ucz80g280Y09Ucz80g1/vTz/////vb19FRC9FNB94p+ishiFQAAACN0Uk5TABhLeJ6+2Ov4/gZRmP+k+HHYXt4lsWWYGb4sMuX///////8//+lTAAACS0lEQVR4nK3Za3eaQBAG4BkEVMJpgzHX/v+f1ksujW2PooC6ZVFBIrM7u5n3S3LY5FFhryOCOXgKqFMs/2BoSxDL8cXVIlYq9wGDFPdUk1pSTRSYxLil30WdUJXDb3MYHIWxkdMptzsuOMPSyunE6p0DznHD4nQm6s0K3hXk/R5IMH6xgPeGHjGY5NkEPuDS0QNI1S8SfFqb+8pwwukPAvyGfz08gK/q+yD4FPh5tbjv3mMHPhQ+n/eQcNzexw58dH8eXdKfF6Bzf+mn7T0n8G79KQ9g+tID55XL+BhKEL2dg7f88Utl8noGzqpPewDRewfe8OYrc+LfLThKBDyAfHcEk519fuakHOUH8HpwLvfI6M8BzPzHXD/hogGDKyEPYLXX4BdqL3BdNy6cQPxXg0lEDJJZ80JOYlDlCFcB0ZqBMwj7FUJK7UZ8QLVEiC/3Q/5gUSKmZGvm7AEsUbDT6KxQaByfkmM4Zf/xje5flnuwxmhCtbUPJTv8zI7XjeQGyYf8EczaBpNY4JicuvrgWUxgiZPIGTSJFU5DLlj/Nt/ZwC0fXPSu0SD7IzfK7dYCVvyHsuguGsCS3W2YYMHu2ExwYxh6XuDaMDl4gblh+vICV4YJ1gtkLQEOYL0EMBYpB1AvUvZl1AHUyyi50HukWejprYh7mq2I/GZJfDsnv+EU3xKLb9rljxXyBx/xo5n84VH8eCt/AJcvEcgXMcTLLPKFIPlSlXwxDcTLfSBfkJQvmYJ4UVdHuOwM8oVxHdnSfRPhLxeO7a5ff/wHeUL+q5GEq28AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
