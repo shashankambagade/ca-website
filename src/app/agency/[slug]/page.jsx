@@ -51,7 +51,7 @@ export default async function CompanyPage({ params }) {
 
     if (!company) {
     return <>
-             <div className="h-[64px] w-full bg-black"></div> 
+             <div className="h-[88px] w-full bg-black"></div> 
              <div className="text-center pt-40 font-bold text-9xl mb-5">404</div>
              <div className="text-center pb-40 font-bold text-5xl text-red-500">Page not found</div>
           </>;
