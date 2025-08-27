@@ -60,7 +60,7 @@ export default async function SingleNewsPage({ params }) {
 
   return (
     <> 
-    <div className="h-[64px] w-full bg-black"></div> 
+    <div className="h-[88px] w-full bg-black"></div> 
     <main className="max-w-screen-md mx-auto px-5 py-20">
        
       <div className="mb-8">
